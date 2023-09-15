@@ -1,0 +1,25 @@
+{
+  "rutinas": [
+    {
+      "title": "Remo",
+      "description": "Pecho abierto",
+      "duration": 1010,
+      "personalTrainer": "Morga Wallllen",
+      "id": 2
+    },
+    {
+      "title": "Pierna",
+      "description": "Gemelos",
+      "duration": 100,
+      "personalTrainer": "Morgana ",
+      "id": 3
+    },
+    {
+      "title": "Pectoral",
+      "description": "Pecho inferior",
+      "duration": 100,
+      "personalTrainer": " Wallllen",
+      "id": 4
+    }
+  ]
+}

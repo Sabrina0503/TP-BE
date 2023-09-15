@@ -1,0 +1,31 @@
+{
+  "usuarios": [
+    {
+      "id": 2,
+      "nombre": "María",
+      "apellido": "González",
+      "edad": 25,
+      "mail": "maria.gonzalez@email.com"
+    },
+    {
+      "id": 3,
+      "nombre": "Carlos",
+      "apellido": "López",
+      "edad": 35,
+      "mail": "carlos.lopez@email.com"
+    },
+    {
+      "id": 4
+    },
+    {
+      "id": 5
+    },
+    {
+      "nombre": "Carlos",
+      "apellido": "López",
+      "edad": 35,
+      "mail": "carlos.lopez@email.com",
+      "id": 6
+    }
+  ]
+}
