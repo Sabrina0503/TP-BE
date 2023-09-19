@@ -1,5 +1,5 @@
 import { Injectable, NotFoundException } from '@nestjs/common';
-const baseUrl = 'http://localhost:3000/rutinas/';
+const baseUrl = 'http://localhost:3030/rutinas/';
 import { Rutina } from './rutina.interface';
 import { RutinaDto } from './rutina.dto';
 
