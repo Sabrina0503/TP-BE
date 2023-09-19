@@ -52,7 +52,6 @@ export class RutinaController {
 
   @Delete('/:id')
   deleteRutinakById(@Param('id') id: number): Promise<void> {
-    console.log(`la rutina con el id ${id} ha sido eliminada`);
     return this.rutinaService.deleteRutinakById(id);
   }
 
