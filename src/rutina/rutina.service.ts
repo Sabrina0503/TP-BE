@@ -1,10 +1,7 @@
-import {
-  BadRequestException,
-  Injectable,
-  NotFoundException,
-} from '@nestjs/common';
-const baseUrl = 'http://localhost:3030/rutinas/';
+import { Injectable, NotFoundException } from '@nestjs/common';
+const baseUrl = 'http://localhost:3000/rutinas/';
 import { Rutina } from './rutina.interface';
+import { RutinaDto } from './rutina.dto';
 
 @Injectable()
 export class RutinaService {
@@ -47,9 +44,10 @@ export class RutinaService {
     return filterByPersonalTrainer;
   }
 
-  async createRutina(rutina: Rutina) {
+  async createRutina(rutina: RutinaDto): Promise<Rutina> {
     const id = await this.setId();
-    const newRutina = { ...rutina, id };
+    const { title, duration, personalTrainer, description } = rutina;
+    const newRutina = { id, title, personalTrainer, duration, description };
     const res = await fetch(baseUrl, {
       method: 'POST',
       headers: {

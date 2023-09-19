@@ -6,11 +6,16 @@ import { join } from 'path';
 import { RutinaController } from './rutina/rutina.controller';
 import { RutinaService } from './rutina/rutina.service';
 import { RutinaModule } from './rutina/rutina.module';
+import { UsuarioModule } from './usuarios/usuarios.module';
 
 @Module({
   imports: [
-    ServeStaticModule.forRoot({ rootPath: join(__dirname, '..', 'client') }),
+    ServeStaticModule.forRoot({
+      rootPath: join(__dirname, '..', 'client'),
+      serveRoot: '/',
+    }),
     RutinaModule,
+    UsuarioModule,
   ],
   controllers: [AppController, RutinaController],
   providers: [AppService, RutinaService],

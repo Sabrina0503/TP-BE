@@ -1,4 +1,49 @@
 {
+  "rutinas": [
+    {
+      "title": "Remo",
+      "description": "Pecho abierto",
+      "duration": 1010,
+      "personalTrainer": "Morga Wallllen",
+      "id": 2
+    }
+    ,
+    {
+      "title": "Remo",
+      "description": "Pecho abierto",
+      "duration": 1010,
+      "personalTrainer": "Morga Wallllen",
+      "id": 2
+    },
+    {
+      "title": "Pierna",
+      "description": "Gemelos",
+      "duration": 100,
+      "personalTrainer": "Morgana ",
+      "id": 3
+    },
+    {
+      "title": "Pectoral",
+      "description": "Pecho inferior",
+      "duration": 100,
+      "personalTrainer": " Wallllen",
+      "id": 4
+    },
+    {
+      "title": "pierna",
+      "description": "holaaaaaa",
+      "duration": 100,
+      "personalTrainer": "Morgana ",
+      "id": 5
+    },
+    {
+      "id": 6,
+      "title": "Bicep",
+      "personalTrainer": "Alancito",
+      "duration": 12,
+      "description": "bicep con mancuerna"
+    }
+  ],
   "usuarios": [
     {
       "id": 2,
@@ -13,12 +58,6 @@
       "apellido": "López",
       "edad": 35,
       "mail": "carlos.lopez@email.com"
-    },
-    {
-      "id": 4
-    },
-    {
-      "id": 5
     },
     {
       "nombre": "Carlos",
